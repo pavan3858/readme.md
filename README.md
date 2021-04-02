@@ -9,7 +9,7 @@ After this we will find the fourier series cofficients using the least square me
 Figure1 cos(cos(x)) plot
 ![Figure_2](https://user-images.githubusercontent.com/81006760/113397438-ab2d3980-93ba-11eb-8429-07040d320a2c.png)
 Figure2 semilogy plot of e(x)
-FOURIER COFFICIENTS
+#### FOURIER COFFICIENTS
 Calculating the fourier cofficients
 We calculate the fourier cofficients using the formula given in the assignment.Then we store the value in the format of a vector(a0,a1,b1,a2,b3,......,a25,b25).
 Plotting the cofficients
@@ -25,7 +25,7 @@ Figure5 Semilogy plot of cofficients of cos(cos(x)) vs n
 3.In the first case e(x) the fourier cofficients are very large and decay after many harmonics whereas in the second case [cos(cos(x))] the fourier cofficients decay quickly.
 ![Figure_6](https://user-images.githubusercontent.com/81006760/113398515-5b4f7200-93bc-11eb-942b-12154ac258b8.png)
 Figure6 loglog plot of cofficients of cos(cos(x))
-Least Square Cofficients
+##### Least Square Cofficients
 Calculating the cofficients
 We will use the least square method to minimise the lstsq error and find out the best possible cofficients for both the functions. We first construct a matrix and then find out the best possible cofficients satisfying the equation.
 AX=Y
@@ -36,5 +36,5 @@ This is done in the same way as in the fourier cofficients ,using yhe same code.
 Figure7 cos(cos(x))
 ![Figure_8](https://user-images.githubusercontent.com/81006760/113399253-8ab2ae80-93bd-11eb-8284-c7178bb3a904.png)
 Figure8 e(x)
-Conclusion
+###### Conclusion
 We have observed that both fourier cofficients and lstsq cofficients do not vary much.When we plot both the original function and the computed function us- ing cofficients, we see that in the case of the exponential function there is a lot of variation but in the case of cos(cos(x)) it is the same. This is because exponential has many harmonics, we considered only 51 coefficients.This causes considerable error. In the case of cos(cos(x)) 51 cofficients are enough to represent the function accurately as the cofficients decay rapidly.
