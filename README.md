@@ -10,9 +10,12 @@ Figure1 cos(cos(x)) plot
 ![Figure_2](https://user-images.githubusercontent.com/81006760/113397438-ab2d3980-93ba-11eb-8429-07040d320a2c.png)
 Figure2 semilogy plot of e(x)
 #### FOURIER COFFICIENTS
-Calculating the fourier cofficients\\
+Calculating the fourier cofficients
+
 We calculate the fourier cofficients using the formula given in the assignment.Then we store the value in the format of a vector(a0,a1,b1,a2,b3,......,a25,b25).
+
 Plotting the cofficients
+
 We plot the cofficients an,bn vs n using the semilogy and loglog plots
 ![Figure_3](https://user-images.githubusercontent.com/81006760/113398001-8b4a4580-93bb-11eb-8c65-742f6f665ba9.png)
 Figure3 semilogy plot of Cofficients of e(x) vs n
